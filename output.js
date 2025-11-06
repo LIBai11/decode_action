@@ -1,326 +1,585 @@
-//Wed Nov 05 2025 07:53:21 GMT+0000 (Coordinated Universal Time)
+//Thu Nov 06 2025 01:55:04 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-const $ = new Env('缓存IsvToken');
-var c6YnLC7 = Object['\x64\x65\x66\x69\x6e\x65\x50\x72\x6f\x70\x65\x72\x74\x79'],
-  FEueHZM,
-  hBwIFir,
-  FNLwDSM,
-  vQCK7Sj,
-  s3nN9hf,
-  zuuU5TE,
-  AE0n2Ym,
-  jLeJMH2,
-  C_X0Yg;
-function e0b1Pd() {
+const $ = new Env('京东CK检测');
+var RPNXTKa = Object['\u0064\u0065\u0066\u0069\u006e\u0065\u0050\u0072\u006f\u0070\u0065\u0072\u0074\u0079'],
+  GBhMQba,
+  CxvTJZ6,
+  LC6lqoI,
+  qmH6UbD,
+  fLfAaQ,
+  BmuzlTg,
+  c7e4XVE,
+  Wq6xoy,
+  WPtnyqg;
+function uzDmiD() {
   return globalThis;
 }
-function xu2jLR() {
+function wWHK4I() {
   return global;
 }
-function LEW7l8_() {
+function pp81TO() {
   return window;
 }
-function ACZISIb() {
-  return new Function("return this")();
+function LxI6pY() {
+  return new Function('\x72\x65\x74\x75\x72\x6e\x20\x74\x68\x69\x73')();
 }
-function M3lZ3l(c6YnLC7 = [e0b1Pd, xu2jLR, LEW7l8_, ACZISIb], lonC6T1, zlidsp = [], b8rkRm = 0x0, FEueHZM) {
-  lonC6T1 = lonC6T1;
+function ETvR3W2(RPNXTKa = [uzDmiD, wWHK4I, pp81TO, LxI6pY], IdsUSE, Isb83H = [], GBhMQba, CxvTJZ6) {
+  IdsUSE = IdsUSE;
   try {
-    lonC6T1 = Object
-    zlidsp.push(''.__proto__.constructor.name)
+    IdsUSE = Object
+    Isb83H["push"](''.__proto__["constructor"].name)
   } catch (e) {}
-  DTZKIWE: for (b8rkRm = b8rkRm; b8rkRm < c6YnLC7.length; b8rkRm++) try {
-    lonC6T1 = c6YnLC7[b8rkRm]();
-    for (FEueHZM = 0; FEueHZM < zlidsp.length; FEueHZM++) if (typeof lonC6T1[zlidsp[FEueHZM]] === '\x75\x6e\x64\x65\x66\x69\x6e\x65\x64') {
-      continue DTZKIWE;
+  bzPv91: for (GBhMQba = 0; GBhMQba < RPNXTKa["length"]; GBhMQba++) try {
+    IdsUSE = RPNXTKa[GBhMQba]();
+    for (CxvTJZ6 = 0x0; CxvTJZ6 < Isb83H["length"]; CxvTJZ6++) if (typeof IdsUSE[Isb83H[CxvTJZ6]] === "undefined") {
+      continue bzPv91;
     }
-    return lonC6T1;
+    return IdsUSE;
   } catch (e) {}
-  return lonC6T1 || this;
+  return IdsUSE || this;
 }
-FEueHZM = M3lZ3l() || {}
-hBwIFir = FEueHZM["TextDecoder"]
-FNLwDSM = FEueHZM["Uint8Array"]
-vQCK7Sj = FEueHZM["Buffer"]
-s3nN9hf = FEueHZM.String || String
-zuuU5TE = FEueHZM["Array"] || Array
-function Hh7y0a(...c6YnLC7) {
-  return c6YnLC7[c6YnLC7["length"] - 1];
+GBhMQba = ETvR3W2() || {}
+CxvTJZ6 = GBhMQba["TextDecoder"]
+LC6lqoI = GBhMQba.Uint8Array
+qmH6UbD = GBhMQba.Buffer
+fLfAaQ = GBhMQba.String || String
+BmuzlTg = GBhMQba.Array || Array
+function OL6kAI(...RPNXTKa) {
+  return RPNXTKa[RPNXTKa["length"] - 0x1];
 }
-function UeXYoh(Is6Naft, c6YnLC7) {
-  switch (jLeJMH2) {
-    case -14:
-      return !Is6Naft;
-    case 0x13:
-      return Is6Naft / c6YnLC7;
-    case -41:
-      return Is6Naft * c6YnLC7;
-    case -12:
-      return Is6Naft + c6YnLC7;
-    case -16:
-      return Is6Naft - c6YnLC7;
+function m6LnB7(LHT8ku, RPNXTKa) {
+  switch (Wq6xoy) {
+    case -25:
+      return LHT8ku + RPNXTKa;
+    case -0x2e:
+      return !LHT8ku;
+    case -0xe:
+      return LHT8ku / RPNXTKa;
+    case 0x12:
+      return LHT8ku - RPNXTKa;
+    case -18:
+      return typeof LHT8ku;
   }
 }
-function kQ5dUs4(Is6Naft) {
-  return Hh7y0a(Is6Naft = jLeJMH2 + (jLeJMH2 = Is6Naft, 0x0), Is6Naft);
+function gWnqRI(LHT8ku) {
+  return OL6kAI(LHT8ku = Wq6xoy + (Wq6xoy = LHT8ku, 0x0), LHT8ku);
 }
-jLeJMH2 = jLeJMH2
-C_X0Yg = Object["create"](null)
-const L06f8z = require('./jdCookie'),
-  LICAGSJ = require('./utils/Rebels_jdCommon'),
-  kSh0eDo = require('./utils/Rebels_sendJDNotify'),
-  _UulUA = require('./utils/Rebels_Token'),
-  NmVuwHV = require('fs'),
-  SzlHa6 = require('path');
-let dwBheW = process["env"]["jd_cacheIsvToken_threads"] || '\x31';
-const hJPEkf = process["env"]["jd_cacheIsvToken_interval"] || "2000",
-  EX26iT = process["env"]["jd_cacheIsvToken_cache"] === "true",
-  Wx6zKo8 = parseInt(process["env"]["jd_cacheIsvToken_minExpireMinutes"] || "2"),
-  hw7wApD = 50,
-  OsFPZV6 = process["env"]["JD_ISV_TOKEN_STORAGE_MODE"] || '\u0033',
-  rFCZyS = process["env"]["JD_ISV_TOKEN_STORAGE_DEBUG"] === "true",
-  MhSFym = process["env"]["JD_ISV_TOKEN_REDIS_CACHE_KEY"] || "isvToken@",
-  SzIGv5C = /<pt_pin>/["test"](MhSFym);
-function sGtVXe(Is6Naft) {
-  const c6YnLC7 = encodeURIComponent(Is6Naft);
-  if (SzIGv5C) {
-    return MhSFym["replace"](/<pt_pin>/g, c6YnLC7);
-  } else {
-    return `${MhSFym}${c6YnLC7}`;
+Wq6xoy = Wq6xoy
+WPtnyqg = Object["create"](null)
+const FqCHAX = require('./jdCookie.js'),
+  NhSDCgk = require('./utils/Rebels_sendJDNotify'),
+  okXe63d = require('./utils/Rebels_jdCommon');
+let qXWnzbs = $["isNode"]() && process["env"]["QL_DIR"],
+  SAYgK2 = process["env"]["jd_CheckCK_showsuccessck"] || "true";
+const Ayv9Ap = (process["env"]["jd_CheckCK_notify"] || process["env"]["jd_CheckCK_Notify"]) === "true";
+let MzoSuF = process["env"]["WP_APP_TOKEN_ONE"] || '',
+  DnYd1Kq = process["env"]["jd_CheckCK_autodisable"] || "true",
+  p6hTgag = process["env"]["jd_CheckCK_autoenable"] || "true",
+  NmoFrn = process["env"]["jd_checkck_threads"] || '\x31';
+const xEAuEze = process["env"]["jd_checkck_interval"] || "2000",
+  DBHqh_u = 0x32;
+let B0LqV7 = Object["keys"](FqCHAX)["map"](RPNXTKa => {
+  var IdsUSE = "pkw0ad" in WPtnyqg;
+  if (IdsUSE) {
+    var GBhMQba = {
+        ["hbgt_V"]: "hCB_SY"
+      },
+      LC6lqoI,
+      qmH6UbD;
+    LC6lqoI = OL6kAI(WPtnyqg["N06gf9K"] = GBhMQba["hbgt_V"], (RPNXTKa, IdsUSE, GBhMQba) => {
+      var CxvTJZ6;
+      CxvTJZ6 = {};
+      if (GBhMQba.length !== RPNXTKa.length + IdsUSE.length) {
+        return false;
+      }
+      return qmH6UbD(RPNXTKa, IdsUSE, GBhMQba, 0, 0, 0, CxvTJZ6);
+    })
+    qmH6UbD = (RPNXTKa, IdsUSE, GBhMQba, CxvTJZ6, LC6lqoI, LHT8ku, Isb83H) => {
+      var fLfAaQ;
+      fLfAaQ = false;
+      if (LHT8ku >= GBhMQba.length) {
+        return true;
+      }
+      if (Isb83H['' + CxvTJZ6 + LC6lqoI + LHT8ku] !== undefined && 1) {
+        return Isb83H[m6LnB7('' + CxvTJZ6 + LC6lqoI, LHT8ku, Wq6xoy = -25)];
+      }
+      if (GBhMQba[LHT8ku] === RPNXTKa[CxvTJZ6] && GBhMQba[LHT8ku] === IdsUSE[LC6lqoI]) {
+        fLfAaQ = qmH6UbD(RPNXTKa, IdsUSE, GBhMQba, m6LnB7(CxvTJZ6, 1, gWnqRI(-25)), LC6lqoI, m6LnB7(LHT8ku, 0x1, Wq6xoy = -0x19), Isb83H) || qmH6UbD(RPNXTKa, IdsUSE, GBhMQba, CxvTJZ6, m6LnB7(LC6lqoI, 1, gWnqRI(-0x19)), m6LnB7(LHT8ku, 1, gWnqRI(-25)), Isb83H);
+      } else {
+        if (GBhMQba[LHT8ku] === RPNXTKa[CxvTJZ6]) {
+          fLfAaQ = qmH6UbD(RPNXTKa, IdsUSE, GBhMQba, m6LnB7(CxvTJZ6, 1, gWnqRI(-25)), LC6lqoI, m6LnB7(LHT8ku, 0x1, Wq6xoy = -0x19), Isb83H);
+        } else {
+          if (GBhMQba[LHT8ku] === IdsUSE[LC6lqoI]) {
+            fLfAaQ = qmH6UbD(RPNXTKa, IdsUSE, GBhMQba, CxvTJZ6, m6LnB7(LC6lqoI, 1, Wq6xoy = -0x19), m6LnB7(LHT8ku, 1, Wq6xoy = -0x19), Isb83H);
+          }
+        }
+      }
+      return OL6kAI(Isb83H[m6LnB7('' + CxvTJZ6 + LC6lqoI, LHT8ku, Wq6xoy = -0x19)] = fLfAaQ, fLfAaQ);
+    }
+    console.log(LC6lqoI)
   }
-}
-let Q2tnei = Object["keys"](L06f8z)["map"](Is6Naft => L06f8z[Is6Naft])["filter"](Is6Naft => Is6Naft);
-if (UeXYoh(Q2tnei[0], jLeJMH2 = -0xe)) {
-  $["msg"]($["name"], "【提示】请先获取Cookie")
+  return FqCHAX[RPNXTKa];
+})["filter"](LHT8ku => LHT8ku);
+if (m6LnB7(B0LqV7[0x0], gWnqRI(-46))) {
+  $["msg"]($["name"], "【提示】请先获取京东Cookie")
   process["exit"](0x1)
 }
-UeXYoh((async () => {
+let gXLPKD0 = {};
+if (qXWnzbs) {
   try {
-    const hdzFAjk = parseInt(dwBheW);
-    if (hdzFAjk > 0 && hdzFAjk !== 1) {
-      dwBheW = hdzFAjk;
+    gXLPKD0 = require('./ql');
+  } catch (e) {
+    console["log"](`加载青龙面板API失败: ${e["message"]}`)
+    console["log"]("将使用普通环境检测")
+    qXWnzbs = false
+  }
+}
+m6LnB7((async () => {
+  try {
+    const BmuzlTg = parseInt(NmoFrn);
+    if (BmuzlTg > 0) {
+      NmoFrn = BmuzlTg;
     }
   } catch {
-    dwBheW = 3;
+    NmoFrn = 0x3;
   }
-  if (Hh7y0a(dwBheW = Math["min"](dwBheW, hw7wApD), $["waitTime"] = null, hJPEkf)) {
+  if (OL6kAI(NmoFrn = Math["min"](NmoFrn, DBHqh_u), $["waitTime"] = null, xEAuEze)) {
     try {
-      const AFOSllv = parseInt(hJPEkf);
-      if (AFOSllv >= 0) {
-        var zF3_OLA = {
-          LOlJv2: "waitTime"
-        };
-        $[zF3_OLA["LOlJv2"]] = AFOSllv;
+      const c7e4XVE = parseInt(xEAuEze);
+      if (c7e4XVE >= 0x0) {
+        $["waitTime"] = c7e4XVE;
       }
     } catch {
-      console["log"]("⚠ 自定义运行间隔时长设置错误");
+      console["log"]("⚠ 自定义运行间隔时长设置错误")
     }
   }
-  if (Hh7y0a(console["log"](`==========${$["name"]}变量开启状态==========`), console["log"](`并发线程: [${dwBheW}]个线程同时运行`), console["log"](`间隔时长: [${UeXYoh($["waitTime"], 0x3e8, jLeJMH2 = 0x13)}秒]运行间隔时长`), console["log"](`缓存模式: [${EX26iT ? "检查有效期" : "覆盖缓存"}]模式`), EX26iT)) {
-    console["log"](`最小有效期: [${Wx6zKo8}分钟]`);
+  if (OL6kAI(console["log"](`==========${$["name"]}变量开启状态==========`), console["log"](`运行环境: [${qXWnzbs ? "青龙面板" : "普通环境"}]`), console["log"](`并发线程: [${NmoFrn}]个线程同时运行`), console["log"](`间隔时长: [${m6LnB7($["waitTime"], 1000, Wq6xoy = -14)}秒]运行间隔时长`), console["log"](`代理开关: [${okXe63d["getProxyStatus"]()}]`), console["log"](`通知推送: [${Ayv9Ap ? "开启" : "关闭"}]`), console["log"](`显示有效: [${SAYgK2 === "true" ? '开启' : "关闭"}]`), qXWnzbs)) {
+    console["log"](`自动禁用: [${DnYd1Kq === "true" ? "开启" : '关闭'}]`)
+    console["log"](`自动启用: [${p6hTgag === "true" ? "开启" : "关闭"}]`)
   }
-  const C_X0Yg = Hh7y0a(console["log"](`存储模式: [${OsFPZV6 === '\x31' ? "仅本地" : OsFPZV6 === "2" ? "仅Redis" : "本地+Redis"}]`), console["log"](`调试信息: [${rFCZyS ? '开启' : '关闭'}]`), console["log"](`==========${$["name"]}变量状态结束==========`), console["log"](''), kSh0eDo["config"]({
+  if (OL6kAI(console["log"](`==========${$["name"]}变量状态结束==========`), console["log"](''), NhSDCgk["config"]({
     ["title"]: $["name"]
-  }), await LICAGSJ["concTask"](dwBheW, Q2tnei, km5CRfY), kSh0eDo["getMessage"]());
-  if (C_X0Yg) {
-    var e0b1Pd = {
-      V4cWJl: "log"
+  }), await PNQSJPb(), Ayv9Ap && NhSDCgk["getMessage"]())) {
+    var I_nKQNs = {
+      ["u5yyCSM"]: "push"
     };
-    console[e0b1Pd["V4cWJl"]](`\n📣 运行结果\n${C_X0Yg["replace"](/：/g, " ➜ ")}`);
+    await NhSDCgk[I_nKQNs.u5yyCSM]();
   }
-  process["exit"](0);
-})()["catch"](Is6Naft => {
-  var c6YnLC7 = ["logErr"];
-  return $[c6YnLC7[0x0]](Is6Naft);
-})["finally"](() => $["done"]()), kQ5dUs4(-0xe));
-async function km5CRfY(c6YnLC7, zlidsp) {
+})()["catch"](RPNXTKa => {
+  return $["logErr"](RPNXTKa);
+})["finally"](() => {
+  return $["done"]();
+}), gWnqRI(-46));
+async function PNQSJPb() {
+  try {
+    var RPNXTKa = "validCount";
+    if (OL6kAI($[RPNXTKa] = 0x0, qXWnzbs)) {
+      try {
+        const GBhMQba = await gXLPKD0["getEnvs"]();
+        if (m6LnB7(GBhMQba[0x0], gWnqRI(-46))) {
+          return OL6kAI($["msg"]($["name"], "【提示】请先获取京东账号一cookie\n直接使用NobyDa的京东签到获取", "https://bean.m.jd.com/bean/signIndex.action", {
+            ["open-url"]: "https://bean.m.jd.com/bean/signIndex.action"
+          }), undefined);
+        }
+        let qmH6UbD = [];
+        for (let fLfAaQ = 0x0; fLfAaQ < GBhMQba["length"]; fLfAaQ++) if (GBhMQba[fLfAaQ]["value"]) {
+          let _vJXqn = 0;
+          if (GBhMQba[fLfAaQ]["_id"]) {
+            _vJXqn = GBhMQba[fLfAaQ]["_id"]
+          }
+          if (GBhMQba[fLfAaQ].id) {
+            _vJXqn = GBhMQba[fLfAaQ].id;
+          }
+          qmH6UbD["push"]({
+            ["cookie"]: GBhMQba[fLfAaQ]["value"],
+            ["index"]: m6LnB7(fLfAaQ, 1, gWnqRI(-0x19)),
+            id: _vJXqn
+          });
+        }
+        if (OL6kAI(await okXe63d["concTask"](NmoFrn, qmH6UbD, Sq9OMfo), SAYgK2) === "true") {
+          console["log"](`\n📣 共有 ${$["validCount"] || 0x0} 个有效账号，${m6LnB7(qmH6UbD["length"], $["validCount"] || 0, Wq6xoy = 0x12)} 个失效账号`)
+        }
+      } catch (error) {
+        var F2aDQOt, I0ScwxP, WPtnyqg, uzDmiD;
+        F2aDQOt = 0x156
+        I0ScwxP = -0xde
+        WPtnyqg = -34
+        uzDmiD = {
+          p: () => F2aDQOt = WPtnyqg + 0x44,
+          ["c"]: "log",
+          W: 0,
+          ["b"]: "message",
+          ["y"]: () => {
+            return F2aDQOt = WPtnyqg + (I0ScwxP == 24 ? uzDmiD.x : 68);
+          },
+          ["ag"]: RPNXTKa => {
+            I0ScwxP = -0x59
+            F2aDQOt += F2aDQOt == (false ? uzDmiD.ab : -0x12) ? -14 : -0x70
+            I0ScwxP += 0x45
+            WPtnyqg += WPtnyqg + 96
+            uzDmiD["d"] = true
+            return '\u0061\u0065';
+          },
+          ["Y"]: 69,
+          G: -22,
+          V: () => I0ScwxP += 0x0,
+          J: -71,
+          O: -0x2f,
+          z: 0x63,
+          C: (RPNXTKa = false) => {
+            if (RPNXTKa) {
+              return I0ScwxP == -45;
+            }
+            return F2aDQOt += 99, I0ScwxP -= 0x47, WPtnyqg += F2aDQOt == 14 ? uzDmiD.B : -45;
+          },
+          X: () => {
+            return I0ScwxP += 69;
+          },
+          P: (RPNXTKa = I0ScwxP == -0x125) => {
+            if (!RPNXTKa && true) {
+              return uzDmiD.R();
+            }
+            return WPtnyqg == WPtnyqg + -47;
+          },
+          ["K"]: () => (I0ScwxP += -71, uzDmiD.d = true),
+          v: () => {
+            return WPtnyqg *= 0x2, WPtnyqg -= WPtnyqg == -40 ? 25 : 't';
+          },
+          f: -0x1bc,
+          ["N"]: () => {
+            console["log"]("将使用普通环境检测逻辑")
+            uzDmiD.K()
+            return 'L';
+          },
+          at: RPNXTKa => {
+            return RPNXTKa != 0x248 && RPNXTKa != 0x1b9 && RPNXTKa - 0x1ab;
+          },
+          au: RPNXTKa => {
+            return RPNXTKa != -0x125 && RPNXTKa + 0x178;
+          },
+          ["av"]: RPNXTKa => {
+            return RPNXTKa.e ? 114 : 0x350;
+          }
+        }
+        while (F2aDQOt + I0ScwxP + WPtnyqg != 0x53) {
+          switch (F2aDQOt + I0ScwxP + WPtnyqg) {
+            case uzDmiD.d ? 0x3 : 0x293:
+              qXWnzbs = false
+              F2aDQOt += 0x6f
+              uzDmiD["e"] = true
+              break;
+            case 0x4a:
+            case 0x3e0:
+            case 0x31f:
+              uzDmiD.ah = 'ai';
+              if (uzDmiD["N"]() == '\u004c') {
+                break;
+              }
+            case 0x2f8:
+            case 0x3a1:
+            case 0x3d2:
+            case 8:
+              if (F2aDQOt == 0xfa && false) {
+                F2aDQOt += 0xbf
+                I0ScwxP *= 0x2
+                I0ScwxP -= F2aDQOt == (false ? uzDmiD.m : -89) ? 64 : -0x52
+                WPtnyqg -= 0x2d
+                break;
+              }
+              uzDmiD.p()
+              F2aDQOt += F2aDQOt + (false ? -0x45 : -0x3b)
+              I0ScwxP -= 71
+              WPtnyqg -= 45
+              break;
+            case uzDmiD.at(F2aDQOt):
+              uzDmiD.aq = '\x61\x72';
+              if (uzDmiD["ag"]() == 'ae') {
+                break;
+              }
+            case 119:
+            case 100:
+              if (F2aDQOt == -0x17) {
+                F2aDQOt += 0x63
+                I0ScwxP += WPtnyqg - 0x78
+                uzDmiD.v()
+                break;
+              }
+              uzDmiD["y"]()
+              uzDmiD.C()
+              break;
+            case 0x3d8:
+            case 86:
+              console["log"](`青龙API调用失败: ${(uzDmiD.I = error)["message"]}`)
+              F2aDQOt -= 12
+              break;
+            case 0xe6:
+            case 0x171:
+            case uzDmiD.au(I0ScwxP):
+              F2aDQOt = 0x30
+              uzDmiD.X()
+              break;
+            case 0xb1:
+            case uzDmiD["av"](uzDmiD):
+              if (uzDmiD.P()) {
+                F2aDQOt *= 0x2
+                F2aDQOt -= 0x228
+                uzDmiD["d"] = true
+                break;
+              }
+              await PNQSJPb()
+              WPtnyqg -= 31
+              break;
+            default:
+              delete uzDmiD.ap
+              I0ScwxP = -11
+              F2aDQOt -= 0x8f
+              I0ScwxP += 69
+              WPtnyqg += 0x1f
+              uzDmiD["e"] = true
+              break;
+            case 0x14:
+              F2aDQOt = 29
+              F2aDQOt += 0x8e
+              I0ScwxP -= 0x5
+          }
+        }
+      }
+    } else {
+      if (OL6kAI(await okXe63d["concTask"](NmoFrn, B0LqV7, AmL_nyh), SAYgK2) === "true") {
+        console["log"](`\n📣 共有 ${$["validCount"] || 0} 个有效账号，${m6LnB7(B0LqV7["length"], $["validCount"] || 0, Wq6xoy = 18)} 个失效账号`);
+      }
+    }
+  } catch (e) {
+    console["log"](`❌ 脚本运行遇到了错误\n${e}`);
+  }
+}
+async function Sq9OMfo(RPNXTKa) {
   if ($["runEnd"]) {
     return {
       ["runEnd"]: true
     };
   }
-  const zuuU5TE = decodeURIComponent(LICAGSJ["getCookieValue"](c6YnLC7, "pt_pin")),
-    AE0n2Ym = `【账号${zlidsp}】${LICAGSJ["dataMasking"](zuuU5TE, {
-      ["printWidth"]: 0x6
-    })}：`,
-    xdwaYLt = kSh0eDo["create"](zlidsp, zuuU5TE);
-  LICAGSJ["setCookie"](c6YnLC7);
+  const {
+      ["cookie"]: IdsUSE,
+      ["index"]: GBhMQba,
+      id: CxvTJZ6
+    } = RPNXTKa,
+    LC6lqoI = decodeURIComponent(okXe63d["getCookieValue"](IdsUSE, "pt_pin")),
+    qmH6UbD = `【账号${GBhMQba}】${LC6lqoI}：`,
+    fLfAaQ = NhSDCgk["create"](GBhMQba, LC6lqoI);
   try {
-    const hdzFAjk = ["https://cjhy-isv.isvjcloud.com", "https://lzkj-isv.isvjd.com", "https://lzkj-isv.isvjcloud.com", "https://jinggeng-isv.isvjcloud.com", "https://txzj-isv.isvjcloud.com"],
-      AFOSllv = hdzFAjk[Math["floor"](UeXYoh(Math["random"](), hdzFAjk["length"], jLeJMH2 = -41))];
-    let zF3_OLA = true,
-      v2Zhm_ = 0x0;
-    const e0b1Pd = c6YnLC7 => {
-      var zlidsp;
-      zlidsp = "RUUQwP" in C_X0Yg;
-      const hBwIFir = Math["floor"](UeXYoh(c6YnLC7, 0xea60, kQ5dUs4(19))),
-        FNLwDSM = Math["floor"](UeXYoh(c6YnLC7 % 60000, 0x3e8, kQ5dUs4(19)));
-      if (zlidsp && 1) {
-        var s3nN9hf = (c6YnLC7, zlidsp, hBwIFir) => {
-          var FNLwDSM = ["expires="],
-            zuuU5TE,
-            AE0n2Ym;
-          zuuU5TE = new Date()
-          AE0n2Ym = Hh7y0a(zuuU5TE.setTime(UeXYoh(zuuU5TE.getTime(), hBwIFir * 0x18 * 0x3c * 0x3c * 0x3e8, jLeJMH2 = -0xc)), UeXYoh(FNLwDSM[0], zuuU5TE.toUTCString(), jLeJMH2 = -0xc))
-          document.cookie = UeXYoh(c6YnLC7 + '\x3d' + zlidsp + '\u003b' + AE0n2Ym, ";path=/", kQ5dUs4(-12))
-        };
-      }
-      const zuuU5TE = c6YnLC7 % 0x3e8;
-      return `${hBwIFir}分钟${FNLwDSM}秒${zuuU5TE}毫秒`;
-    };
-    if (EX26iT) {
-      let xu2jLR = null,
-        LEW7l8_ = null;
-      if (OsFPZV6 === '2' || OsFPZV6 === "3") {
-        if (global["redisClient"] && global["redisTokenGet"]) {
-          try {
-            if (Hh7y0a(xu2jLR = await global["redisTokenGet"](zuuU5TE), xu2jLR)) {
-              const hJPEkf = sGtVXe(zuuU5TE),
-                hw7wApD = await global["redisClient"]["ttl"](hJPEkf);
-              if (hw7wApD > 0x0) {
-                var MhSFym = ["now"];
-                if (Hh7y0a(LEW7l8_ = UeXYoh(Date[MhSFym[0]](), hw7wApD * 0x3e8, jLeJMH2 = -0xc), rFCZyS)) {
-                  console["log"](`${AE0n2Ym}从Redis读取到缓存，剩余有效期${Math["floor"](UeXYoh(hw7wApD, 0x3c, jLeJMH2 = 0x13))}分钟`);
-                }
-              } else {
-                if (rFCZyS) {
-                  console["log"](`${AE0n2Ym}Redis缓存已过期`);
-                }
-              }
-            } else {
-              if (rFCZyS && 1) {
-                console["log"](`${AE0n2Ym}Redis缓存不存在`);
-              }
-            }
-          } catch (e) {
-            var Q2tnei = "log";
-            console[Q2tnei](`${AE0n2Ym}读取Redis缓存失败: ${e["message"]}`);
-          }
+    const c7e4XVE = OL6kAI($["isLogin"] = true, $["error"] = '', $["nickName"] = '', $["UserName"] = LC6lqoI, await gXLPKD0["getstatus"](CxvTJZ6)),
+      sIlRkt = c7e4XVE == 0x1;
+    if (OL6kAI(await hdUoBU(IdsUSE), $["error"] && $["error"] !== "登录已失效")) {
+      console["log"](`${qmH6UbD}检测出错: ${$["error"]}`)
+      fLfAaQ["fix"]("检测出错")
+    } else {
+      if (m6LnB7($["isLogin"], Wq6xoy = -0x2e) || $["error"] === "登录已失效") {
+        let _vJXqn = "已失效";
+        if (sIlRkt) {
+          _vJXqn += "，已处于禁用状态";
         } else {
-          if (rFCZyS) {
-            console["log"](`${AE0n2Ym}Redis客户端未初始化`);
+          if (DnYd1Kq === "true") {
+            const cT5E_S = await gXLPKD0["DisableCk"](CxvTJZ6);
+            _vJXqn += cT5E_S["code"] == 200 ? "，自动禁用成功" : "，自动禁用失败";
           }
         }
-      }
-      if (UeXYoh(xu2jLR, kQ5dUs4(-0xe)) && (OsFPZV6 === "1" || OsFPZV6 === "3")) {
-        const km5CRfY = SzlHa6["join"](__dirname, "utils", "token.json");
-        try {
-          if (NmVuwHV["existsSync"](km5CRfY)) {
-            const xftI8Ec = JSON["parse"](NmVuwHV["readFileSync"](km5CRfY, "utf8"));
-            if (xftI8Ec[zuuU5TE]) {
-              const bxp6Gs = xftI8Ec[zuuU5TE];
-              if (typeof bxp6Gs === "string") {
-                xu2jLR = bxp6Gs
-                LEW7l8_ = UeXYoh(Date["now"](), parseInt(process["env"]["JD_ISV_TOKEN_CACHE_EXPIRE_MINUTES"] || '\x32\x39') * 0xea60, jLeJMH2 = -0xc)
-              } else {
-                if (bxp6Gs["val"]) {
-                  var rJ3GTyi = ["val"];
-                  xu2jLR = bxp6Gs[rJ3GTyi[0]]
-                  LEW7l8_ = bxp6Gs["expires"]
-                }
-              }
-              if (xu2jLR && LEW7l8_) {
-                if (rFCZyS) {
-                  const qTZYcrC = Math["floor"](UeXYoh(LEW7l8_ - Date["now"](), 60000, kQ5dUs4(19)));
-                  console["log"](`${AE0n2Ym}从本地读取到缓存，剩余有效期${qTZYcrC}分钟`);
-                }
-              } else {
-                if (rFCZyS) {
-                  console["log"](`${AE0n2Ym}本地缓存数据格式不正确`);
-                }
-              }
+        console["log"](`${qmH6UbD}${_vJXqn}!`)
+        fLfAaQ["fix"]("已失效")
+      } else {
+        var YkVmoj = {
+          QL6zGp: "log"
+        };
+        let _vJXqn = "状态正常";
+        if (OL6kAI($["validCount"] = m6LnB7($["validCount"] || 0, 1, Wq6xoy = -0x19), sIlRkt && p6hTgag === "true")) {
+          if (OL6kAI(await $["wait"](1000), await CYenm7S(IdsUSE), m6LnB7($["isLogin"], gWnqRI(-46)))) {
+            await hdUoBU(IdsUSE);
+          }
+          if ($["isLogin"]) {
+            var I0ScwxP = ["code"];
+            const pAfarTV = await gXLPKD0["EnableCk"](CxvTJZ6);
+            if (pAfarTV[I0ScwxP[0]] == 200) {
+              _vJXqn += "，自动启用成功"
+              fLfAaQ["fix"]("状态正常(自动启用成功)")
             } else {
-              if (rFCZyS) {
-                console["log"](`${AE0n2Ym}本地缓存中未找到该账号数据`);
-              }
+              _vJXqn += "，自动启用失败"
+              fLfAaQ["fix"]("状态正常(自动启用失败)")
             }
           } else {
-            if (rFCZyS && 1) {
-              console["log"](`${AE0n2Ym}本地缓存文件不存在`);
-            }
-          }
-        } catch (e) {
-          console["log"](`${AE0n2Ym}读取本地缓存失败: ${e["message"]}`);
-        }
-      }
-      if (xu2jLR && LEW7l8_) {
-        if (Hh7y0a(v2Zhm_ = UeXYoh(LEW7l8_, Date["now"](), jLeJMH2 = -0x10), zF3_OLA = v2Zhm_ <= Wx6zKo8 * 0xea60, UeXYoh(zF3_OLA, kQ5dUs4(-0xe)) && v2Zhm_ > 0)) {
-          const QF7iCIn = e0b1Pd(v2Zhm_);
-          return Hh7y0a(console["log"](`${AE0n2Ym}当前缓存有效期还剩(${QF7iCIn})，跳过更新`), xdwaYLt["fix"](`缓存有效(${QF7iCIn})`), undefined);
-        } else {
-          console["log"](`${AE0n2Ym}缓存即将过期，开始更新...`);
-        }
-      } else {
-        if (rFCZyS) {
-          console["log"](`${AE0n2Ym}未找到有效缓存，开始获取新token...`);
-        }
-      }
-    }
-    const s4UY6B1 = await _UulUA(c6YnLC7, AFOSllv, false);
-    if (s4UY6B1 && 1) {
-      const Scm17rB = parseInt(process["env"]["JD_ISV_TOKEN_CACHE_EXPIRE_MINUTES"] || '\u0032\u0039'),
-        QF7iCIn = Hh7y0a(v2Zhm_ = UeXYoh(Scm17rB, 60000, jLeJMH2 = -41), e0b1Pd(v2Zhm_));
-      if (OsFPZV6 === "1" || OsFPZV6 === "3") {
-        const km5CRfY = SzlHa6["join"](__dirname, "utils", "token.json");
-        try {
-          let nQT47bx = {};
-          if (NmVuwHV["existsSync"](km5CRfY)) {
-            var LdnvcI = ["utf8"];
-            nQT47bx = JSON["parse"](NmVuwHV["readFileSync"](km5CRfY, LdnvcI[0x0]));
-          }
-          if (Hh7y0a(nQT47bx[zuuU5TE] = {
-            ["expires"]: UeXYoh(Date["now"](), v2Zhm_, jLeJMH2 = -12),
-            ["val"]: s4UY6B1
-          }, NmVuwHV["writeFileSync"](km5CRfY, JSON["stringify"](nQT47bx, null, 0x2)), rFCZyS)) {
-            console["log"](`${AE0n2Ym}Token已存储到本地缓存，有效期${Scm17rB}分钟`);
-          }
-        } catch (e) {
-          console["log"](`${AE0n2Ym}本地缓存写入失败: ${e["message"]}`);
-        }
-      }
-      if (OsFPZV6 === "2" || OsFPZV6 === "3") {
-        if (global["redisClient"] && global["redisTokenPut"]) {
-          try {
-            if (Hh7y0a(await global["redisTokenPut"](zuuU5TE, s4UY6B1), rFCZyS)) {
-              console["log"](`${AE0n2Ym}Token已存储到Redis缓存，有效期${Scm17rB}分钟`);
-            }
-          } catch (e) {
-            console["log"](`${AE0n2Ym}Redis缓存写入失败: ${e["message"]}`);
+            var WPtnyqg = {
+              TM4ATR: "状态正常(二次验证失败)"
+            };
+            _vJXqn += "，二次验证失败"
+            fLfAaQ["fix"](WPtnyqg.TM4ATR)
           }
         } else {
-          if (rFCZyS) {
-            console["log"](`${AE0n2Ym}Redis客户端未初始化，跳过Redis存储`);
+          if (sIlRkt) {
+            _vJXqn += "，可手动启用"
+            fLfAaQ["fix"]("状态正常(可手动启用)")
           }
         }
+        console[YkVmoj["QL6zGp"]](`${qmH6UbD}${_vJXqn}!`);
       }
-      let kOKPZhx = [];
-      if (OsFPZV6 === "1" || OsFPZV6 === "3") {
-        kOKPZhx["push"]('本地');
-      }
-      if (OsFPZV6 === '\u0032' || OsFPZV6 === '\u0033') {
-        var UN0V54 = {
-          TBSMcB: "push"
-        };
-        kOKPZhx[UN0V54.TBSMcB]("Redis");
-      }
-      if (kOKPZhx["length"] > 0x0) {
-        console["log"](`${AE0n2Ym}缓存完毕，已存储到${kOKPZhx["join"]('\x2b')}，有效期(${QF7iCIn})`);
-      } else {
-        console["log"](`${AE0n2Ym}缓存完毕，有效期(${QF7iCIn})`);
-      }
-      xdwaYLt["fix"](`缓存完毕(${QF7iCIn})`);
-    } else {
-      console["log"](`${AE0n2Ym}❌ 缓存失败`)
-      xdwaYLt["fix"]("❌ 缓存失败")
     }
-    await $["wait"](parseInt(UeXYoh($["waitTime"] * 0x1, 0x1f4, jLeJMH2 = -12), 0xa));
+    await $["wait"](parseInt(m6LnB7($["waitTime"] * 1, 500, Wq6xoy = -25), 0xa));
   } catch (e) {
-    console["log"](`${AE0n2Ym}❌ 脚本运行遇到了错误\n${e}`)
-    xdwaYLt["fix"]("❌ 运行出错")
-  } finally {
-    LICAGSJ["unsetCookie"]();
+    console["log"](`${qmH6UbD}❌ 脚本运行遇到了错误\n${e}`)
+    fLfAaQ["fix"]("❌ 运行出错")
   }
+}
+async function AmL_nyh(RPNXTKa, IdsUSE) {
+  if ($["runEnd"]) {
+    return {
+      ["runEnd"]: true
+    };
+  }
+  const LC6lqoI = decodeURIComponent(okXe63d["getCookieValue"](RPNXTKa, "pt_pin")),
+    qmH6UbD = `【账号${IdsUSE}】${LC6lqoI}：`,
+    fLfAaQ = NhSDCgk["create"](IdsUSE, LC6lqoI);
+  try {
+    var BmuzlTg = {
+      ["l2U6IK"]: "UserName"
+    };
+    if (OL6kAI($["isLogin"] = true, $["error"] = '', $["nickName"] = '', $[BmuzlTg.l2U6IK] = LC6lqoI, await hdUoBU(RPNXTKa), $["error"]) && 1) {
+      var c7e4XVE = "检测出错";
+      console["log"](`${qmH6UbD}检测出错: ${$["error"]}`)
+      fLfAaQ["fix"](c7e4XVE)
+    } else {
+      if (m6LnB7($["isLogin"], gWnqRI(-46))) {
+        var sIlRkt = ["fix"];
+        console["log"](`${qmH6UbD}已失效!`)
+        fLfAaQ[sIlRkt[0]]("已失效")
+      } else {
+        console["log"](`${qmH6UbD}状态正常!`)
+        fLfAaQ["fix"]("状态正常")
+        $["validCount"] = m6LnB7($["validCount"] || 0, 1, gWnqRI(-25))
+      }
+    }
+    await $["wait"](parseInt(m6LnB7($["waitTime"] * 1, 500, gWnqRI(-0x19)), 0xa));
+  } catch (e) {
+    console["log"](`${qmH6UbD}❌ 脚本运行遇到了错误\n${e}`)
+    fLfAaQ["fix"]("❌ 运行出错")
+  }
+}
+function hdUoBU(RPNXTKa) {
+  return new Promise(async IdsUSE => {
+    try {
+      const LC6lqoI = {
+          ["url"]: "https://plogin.m.jd.com/cgi-bin/ml/islogin",
+          ["method"]: "GET",
+          ["headers"]: {
+            ["Cookie"]: RPNXTKa,
+            ["referer"]: "https://h5.m.jd.com/",
+            ["User-Agent"]: okXe63d["genUA"]($["UserName"]) || "jdapp;iPhone;10.1.2;15.0;network/wifi;Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"
+          }
+        },
+        qmH6UbD = await okXe63d["request"](LC6lqoI);
+      if (m6LnB7(qmH6UbD["success"], gWnqRI(-0x2e)) && true) {
+        $["error"] = `请求失败: ${qmH6UbD["error"] || "未知错误"}`
+        $["isLogin"] = false
+      } else {
+        var fLfAaQ = ["string"];
+        let BmuzlTg;
+        if (m6LnB7(qmH6UbD["data"], gWnqRI(-18)) === fLfAaQ[0x0]) {
+          try {
+            var c7e4XVE = "data";
+            BmuzlTg = JSON["parse"](qmH6UbD[c7e4XVE]);
+          } catch (e) {
+            return OL6kAI($["error"] = `解析数据出错: ${e["message"]}`, console["log"](e), IdsUSE(), undefined);
+          }
+        } else {
+          BmuzlTg = qmH6UbD["data"];
+        }
+        if (BmuzlTg) {
+          if (BmuzlTg["islogin"] === '\u0031') {
+            $["nickName"] = $["UserName"]
+            $["isLogin"] = true
+          } else {
+            if (BmuzlTg["islogin"] === "0") {
+              $["isLogin"] = false
+              $["error"] = "登录已失效"
+            } else {
+              $["error"] = `未知返回...`
+              $["isLogin"] = false
+            }
+          }
+        } else {
+          var sIlRkt = ["error"];
+          $[sIlRkt[0]] = `接口返回空数据`
+          $["isLogin"] = false
+        }
+      }
+    } catch (e) {
+      var _vJXqn = ["error"];
+      $[_vJXqn[0x0]] = `解析数据出错: ${e["message"]}`
+      console["log"](e)
+      $["isLogin"] = false
+    } finally {
+      IdsUSE();
+    }
+  });
+}
+function CYenm7S(RPNXTKa) {
+  return new Promise(async IdsUSE => {
+    try {
+      const LC6lqoI = {
+          ["url"]: "https://me-api.jd.com/user_new/info/GetJDUserInfoUnion",
+          ["method"]: "GET",
+          ["headers"]: {
+            ["Host"]: "me-api.jd.com",
+            ["Accept"]: "*/*",
+            ["Connection"]: "keep-alive",
+            ["Cookie"]: RPNXTKa,
+            ["User-Agent"]: "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36 Edg/106.0.1370.42",
+            ["Accept-Language"]: "zh-cn",
+            ["Referer"]: "https://home.m.jd.com/myJd/newhome.action?sceneval=2&ufc=&",
+            ["Accept-Encoding"]: "gzip, deflate, br"
+          }
+        },
+        qmH6UbD = await okXe63d["request"](LC6lqoI);
+      if (m6LnB7(qmH6UbD["success"], gWnqRI(-46))) {
+        $["error"] = `请求失败: ${qmH6UbD["error"] || "未知错误"}`
+        $["isLogin"] = false
+      } else {
+        let BmuzlTg;
+        if (m6LnB7(qmH6UbD["data"], Wq6xoy = -0x12) === "string") {
+          try {
+            BmuzlTg = JSON["parse"](qmH6UbD["data"]);
+          } catch (e) {
+            return OL6kAI($["error"] = `解析数据出错: ${e["message"]}`, $["isLogin"] = false, IdsUSE(), undefined);
+          }
+        } else {
+          BmuzlTg = qmH6UbD["data"];
+        }
+        if (BmuzlTg) {
+          if (BmuzlTg["retcode"] === "1001") {
+            $["isLogin"] = false
+            $["nickName"] = decodeURIComponent($["UserName"])
+          } else {
+            if (BmuzlTg["retcode"] === "0" && BmuzlTg["data"] && BmuzlTg["data"]["hasOwnProperty"]("userInfo")) {
+              $["nickName"] = BmuzlTg["data"]["userInfo"]["baseInfo"]["nickname"]
+              $["isLogin"] = true
+            } else {
+              $["nickName"] = decodeURIComponent($["UserName"])
+              $["error"] = BmuzlTg["errMsg"]
+              $["isLogin"] = false
+            }
+          }
+        } else {
+          $["nickName"] = decodeURIComponent($["UserName"])
+          $["error"] = "京东服务器返回空数据"
+          $["isLogin"] = false
+        }
+      }
+    } catch (e) {
+      $["nickName"] = decodeURIComponent($["UserName"])
+      $["error"] = e
+      $["isLogin"] = false
+    } finally {
+      IdsUSE();
+    }
+  });
 }
 function Env(t, e) {
   "undefined" != typeof process && JSON.stringify(process.env).indexOf("GITHUB") > -1 && process.exit(0);
